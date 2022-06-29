@@ -220,7 +220,7 @@ spec:
       serviceAccountName: bookinfo-reviews
       containers:
       - name: reviews
-        image: docker.io/istio/examples-bookinfo-reviews-v2:1.16.4
+        image: nishankumar1999/dotnetwebapp
         imagePullPolicy: IfNotPresent
         env:
         - name: LOG_DIR
@@ -262,7 +262,7 @@ spec:
       serviceAccountName: bookinfo-reviews
       containers:
       - name: reviews
-        image: docker.io/istio/examples-bookinfo-reviews-v3:1.16.4
+        image: nishankumar1999/dotnetwebapp
         imagePullPolicy: IfNotPresent
         env:
         - name: LOG_DIR
